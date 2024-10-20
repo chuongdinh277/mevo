@@ -6,27 +6,12 @@
     <link rel="stylesheet" href="./flower_w_heart.css">
     <title>Flower with heart</title>
     <style>
-      .typewriter {
-          font-family: monospace;
-          font-size: 24px;
-          color: #ff4081;
-          border-right: 2px solid;
-          top:  200px;
-          width: fit-content;
-          white-space: nowrap;
-          overflow: hidden;
-          animation: blinkCursor 0.75s step-end infinite;
-      }
-
-      @keyframes blinkCursor {
-          50% {
-              border-color: transparent;
-          }
-      }
+     
+      
       h1 {
             position: absolute; /* Định vị tuyệt đối */
             top: 100px; /* Điều chỉnh khoảng cách từ trên */
-            left: 20%; /* Đặt ở giữa theo chiều ngang */
+            left: 25%; /* Đặt ở giữa theo chiều ngang */
             transform: translateX(-20%); /* Giúp căn giữa chính xác */
             z-index: 10; /* Đặt z-index cao để hiển thị trên các phần tử khác */
             color: rgb(175, 15, 15); /* Màu chữ */
@@ -36,7 +21,7 @@
         .greeting {
             position: absolute; /* Định vị tuyệt đối */
             top: 300px; /* Điều chỉnh khoảng cách từ tiêu đề */
-            left: 20%; /* Đặt ở giữa theo chiều ngang */
+            left: 25%; /* Đặt ở giữa theo chiều ngang */
             transform: translateX(-50%); /* Giúp căn giữa chính xác */
             z-index: 10; /* Đặt z-index cao để hiển thị trên các phần tử khác */
             color: #ff4081; /* Màu chữ */
@@ -48,7 +33,7 @@
         }
 
         /* Media queries cho các thiết bị nhỏ hơn */
-        @media (max-width: 800px) {
+        @media (max-width: 900px) {
             h1 {
                 font-size: 2em;
                 top: 150px; /* Giảm kích thước chữ cho tiêu đề trên điện thoại */
@@ -57,7 +42,7 @@
             .greeting {
                 font-size: 1.2em; /* Giảm kích thước chữ cho đoạn chúc */
                 top: 300px; 
-                left: 30%/* Điều chỉnh vị trí xuống cho phù hợp */
+                left: 25%/* Điều chỉnh vị trí xuống cho phù hợp */
             }
         }
   </style>
