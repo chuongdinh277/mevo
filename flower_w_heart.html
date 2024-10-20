@@ -43,6 +43,20 @@
             font-size: 1.5em; /* Kích thước chữ */
             text-align: center; /* Canh giữa đoạn chúc */
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Đổ bóng cho chữ */
+            word-wrap: break-word; /* Cho phép xuống dòng trong chữ */
+            width: 90%; /* Chiếm 90% chiều rộng màn hình */
+        }
+
+        /* Media queries cho các thiết bị nhỏ hơn */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em; /* Giảm kích thước chữ cho tiêu đề trên điện thoại */
+            }
+
+            .greeting {
+                font-size: 1.2em; /* Giảm kích thước chữ cho đoạn chúc */
+                top: 120px; /* Điều chỉnh vị trí xuống cho phù hợp */
+            }
         }
   </style>
   </head>
